@@ -15,11 +15,11 @@
 6. Build project, drag the `Assets.swift` files into your project and **uncheck** `Copy items if needed`.
 
 ### Usage
-    ```swift
-    // SwiftUI
-    Image(Images.app.goodDog)
-        .background(Color.app.primaryColor)
-    // UIKit
-    let image = UIImage(Images.app.goodCat)
-    let color = UIColor(.app.primaryColor)
-    ```
+```swift
+// SwiftUI
+Image(Images.app.goodDog)
+    .background(Color.app.primaryColor)
+// UIKit
+let image = UIImage(Images.app.goodCat)
+let color = UIColor(.app.primaryColor)
+```
