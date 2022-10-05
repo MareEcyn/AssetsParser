@@ -23,3 +23,10 @@ Image(Images.app.goodDog)
 let image = UIImage(Images.app.goodCat)
 let color = UIColor(.app.primaryColor)
 ```
+### Flags
+```
+--dir "path" # parent directory for assets (eg. project root)
+--output "path" # where should be placed generated file
+--names "regexp" # allowed directory names for scan (may be used to exclude some dirs)
+--shell "path" # path to shell (used by internals), 'bin/sh' by default
+```
